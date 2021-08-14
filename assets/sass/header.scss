@@ -1,0 +1,54 @@
+$darken-color: #a8a8a8;
+
+.header {
+  .navbar-brand {
+    font-size: 24px;
+    color: #585555;
+    transition: all 0.5s;
+    text-shadow: 1px 1px 0 #fff,
+      -1px 1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px -1px 0 #fff;
+
+      @media screen and(max-width: 560px) {
+        display: none;
+      }
+  }
+
+
+
+  .navbar-brand:hover {
+    opacity: 0.5;
+  }
+
+  .login-button {
+    color: #585555;
+    font-size: 8px;
+    padding: 8px;
+    border: 1px solid #a8a8a8;
+    transition: all 0.5s;
+    background-color: #fff;
+
+    img {
+      background-color: transparent;
+      border-right: 1px solid #a8a8a8;
+      padding: 0;
+      padding-right: 8px;
+      margin-right: 8px;
+    }
+  }
+
+  .login-button:hover {
+    color: #fff;
+    background-color: #a8a8a8;
+  }
+
+  .dropdown-item:hover {
+    color: #fff;
+    background: #585555;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
